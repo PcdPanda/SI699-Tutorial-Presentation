@@ -1,5 +1,7 @@
 # SI699 Tutorial Project
 
+[Slide deck](https://docs.google.com/presentation/d/1YiUaIcKpRbHQw0kBXYqOCc7F9aRvCc19_MkJoIRTO1Y/edit#slide=id.g2017ecfacf7_0_53)
+
 ## 1. Dataset
 
 Original dataset from the [repo](https://github.com/luxuan09/emoji_predicts_dropouts/tree/master/data) of the paper
@@ -78,9 +80,9 @@ Original dataset from the [repo](https://github.com/luxuan09/emoji_predicts_drop
 
 1. **Feature selection**
    - Use log and percentage method to create 64 features of users
-   - Use VIF method to remove correlated features
+   - Use VIF method to remove correlated features, and only leaves 45 features in total
 
-
+#### 2.4 Prediction
 
   
 
