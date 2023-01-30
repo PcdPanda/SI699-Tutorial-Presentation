@@ -76,13 +76,20 @@ Original dataset from the [repo](https://github.com/luxuan09/emoji_predicts_drop
      | Jupyter Notebook     | 388         | 3.41          |
      | Kotlin               | 459         | 3.6           |
 
-#### 2.3 Regression
+#### 2.3 Feature Analysis
 
 1. **Feature selection**
    - Use log and percentage method to create 64 features of users
    - Use VIF method to remove correlated features, and only leaves 45 features in total
 
+2. **Regression Analysis**
+3. **Label Analysis**
+   - Why use dropout rate as feature
+
 #### 2.4 Prediction
+
+1. **Model Setting**
+2. 
 
   
 
