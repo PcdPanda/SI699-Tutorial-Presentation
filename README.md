@@ -63,11 +63,35 @@ Original dataset from the [repo](https://github.com/luxuan09/emoji_predicts_drop
 
 #### 2.3 Feature Analysis
 
+- Emoji usage varies in repositories that have different primary programming languages
+
+
+  ![Emoji usage varies in repositories that have different primary programming languages](visualization/emoji_langs.png)
+
+   - One should control for programming languages when analyzing the relation of emoji usage and work-related status and outcomes.
+
+ - Working status measurement
+  
+     | Categories | Working Status |
+     | -------------------- | ----------- |
+     | D1           | Activity level        |
+     | D2              | Trend of activities        |
+     | D3                | Type of activities        |
+     | D4                 |  Type of posts        |
+     | D5                  | Time management         |
+  ![Working status of a developer is related to the number of emoji posts](visualization/working_hour_vs_activeness.png)
+
 1. **Feature selection**
    - Use log and percentage method to create 64 features of users
-   - Use VIF method to remove correlated features, and only leaves 45 features in total
+   - Use Variance Inflation Factor(VIF) method to remove correlated features (VIF > 5), and only leaves 45 features in total to ensure explainability of the model
 
 2. **Regression Analysis**
+   - OLS Regression for Emoji Usage on working status: 
+     - #Emoji Posts
+     - prop. Emoji Posts
+     - prop. Emotional Emoji
+       - LIWC emoji score (positive, negative, anger, anxiety, sadness)
+  
 3. **Label Analysis**
    - Why use dropout rate as feature
 
