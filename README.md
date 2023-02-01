@@ -84,7 +84,7 @@ Original dataset from the [repo](https://github.com/luxuan09/emoji_predicts_drop
 
 2. **Regression Analysis**
 3. **Label Analysis**
-   - Why use dropout rate as feature
+   - Why use dropout rate as featurexxxxx
 
 #### 2.4 Prediction
 

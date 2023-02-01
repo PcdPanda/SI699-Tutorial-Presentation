@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/mnt/e/UMSI/UMSI-DataScience/SI699Capstone/TutorialPresentation/scripts/test.py", line 4, in <module>
+    from sklearn.model_selection import train_test_split 
+  File "/home/panda/anaconda3/lib/python3.9/site-packages/sklearn/__init__.py", line 82, in <module>
+    from .base import clone
+  File "/home/panda/anaconda3/lib/python3.9/site-packages/sklearn/base.py", line 17, in <module>
+    from .utils import _IS_32BIT
+  File "/home/panda/anaconda3/lib/python3.9/site-packages/sklearn/utils/__init__.py", line 20, in <module>
+    from scipy.sparse import issparse
+ModuleNotFoundError: No module named 'scipy'
+Traceback (most recent call last):
+  File "/mnt/e/UMSI/UMSI-DataScience/SI699Capstone/TutorialPresentation/scripts/test.py", line 4, in <module>
+    from sklearn.model_selection import train_test_split 
+  File "/home/panda/anaconda3/lib/python3.9/site-packages/sklearn/__init__.py", line 82, in <module>
+    from .base import clone
+  File "/home/panda/anaconda3/lib/python3.9/site-packages/sklearn/base.py", line 17, in <module>
+    from .utils import _IS_32BIT
+  File "/home/panda/anaconda3/lib/python3.9/site-packages/sklearn/utils/__init__.py", line 20, in <module>
+    from scipy.sparse import issparse
+ModuleNotFoundError: No module named 'scipy'
+day=0.05
+day=0.1
+day=0.2
+day=0.3
