@@ -25,11 +25,19 @@ Original dataset from the [repo](https://github.com/luxuan09/emoji_predicts_drop
 
 #### 2.1 Environment Setup
 
-- Python version should be higher than 3.8.5
+1. Clone the repo
 
-  ```sh
-  pip install -r requirement.txt
-  ```
+```shell
+git clone https://github.com/PcdPanda/SI699-Tutorial-Presentation.git
+```
+
+2. Install virtual environment, Python version should be higher than 3.8.5
+
+```sh
+pip install -r requirement.txt
+```
+
+3. Run everything in the scripts/emoji_analysis.ipynb
 
 #### 2.2 Descriptive Analysis
 
@@ -51,7 +59,7 @@ Original dataset from the [repo](https://github.com/luxuan09/emoji_predicts_drop
 
 2. **Emoji usage by programming languages**
 
-   - The top 10 programming languages with emoji count and entropy are 
+   - The top 20 programming languages with emoji count and entropy are 
    
      | Programming Language | Emoji Count | Emoji Entropy |
      | -------------------- | ----------- | ------------- |
@@ -65,6 +73,16 @@ Original dataset from the [repo](https://github.com/luxuan09/emoji_predicts_drop
      | Ruby                 | 1018        | 2.31          |
      | TypeScript           | 1001        | 3.38          |
      | C#                   | 800         | 3.46          |
+     | C                    | 717         | 3.69          |
+     | CSS                  | 1154        | 4.14          |
+     | Shell                | 778         | 4.34          |
+     | Rust                 | 606         | 3.57          |
+     | Scala                | 635         | 2.76          |
+     | Swift                | 741         | 3.55          |
+     | Objective-C          | 523         | 3.47          |
+     | PowerShell           | 341         | 1.09          |
+     | Jupyter Notebook     | 388         | 3.41          |
+     | Kotlin               | 459         | 3.6           |
 
 #### 2.3 Feature Analysis
 
@@ -131,5 +149,4 @@ Original dataset from the [repo](https://github.com/luxuan09/emoji_predicts_drop
 4. **Language Effect**
    - Within different language, the predictivity of user's usage of emojis are different. PowerShell is an outlier as it already is an outlier in emoji usage analysis
    - Users prefers to using emojis are less likely to dropout, and probability difference is consistent in most languages
-
 
