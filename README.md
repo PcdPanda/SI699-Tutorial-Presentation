@@ -51,7 +51,7 @@ Original dataset from the [repo](https://github.com/luxuan09/emoji_predicts_drop
 
 2. **Emoji usage by programming languages**
 
-   - The top 20 programming languages with emoji count and entropy are 
+   - The top 10 programming languages with emoji count and entropy are 
    
      | Programming Language | Emoji Count | Emoji Entropy |
      | -------------------- | ----------- | ------------- |
@@ -65,16 +65,6 @@ Original dataset from the [repo](https://github.com/luxuan09/emoji_predicts_drop
      | Ruby                 | 1018        | 2.31          |
      | TypeScript           | 1001        | 3.38          |
      | C#                   | 800         | 3.46          |
-     | C                    | 717         | 3.69          |
-     | CSS                  | 1154        | 4.14          |
-     | Shell                | 778         | 4.34          |
-     | Rust                 | 606         | 3.57          |
-     | Scala                | 635         | 2.76          |
-     | Swift                | 741         | 3.55          |
-     | Objective-C          | 523         | 3.47          |
-     | PowerShell           | 341         | 1.09          |
-     | Jupyter Notebook     | 388         | 3.41          |
-     | Kotlin               | 459         | 3.6           |
 
 #### 2.3 Feature Analysis
 
