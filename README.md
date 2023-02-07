@@ -25,7 +25,7 @@ Original dataset from the [repo](https://github.com/luxuan09/emoji_predicts_drop
 
 #### 2.1 Environment Setup
 
-- Python version should be higher than 3.10.0
+- Python version should be higher than 3.8.5
 
   ```sh
   pip install -r requirement.txt
