@@ -34,7 +34,7 @@ git clone https://github.com/PcdPanda/SI699-Tutorial-Presentation.git
 2. Install virtual environment, Python version should be higher than 3.8.5
 
 ```sh
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 3. Run everything in the scripts/emoji_analysis.ipynb
